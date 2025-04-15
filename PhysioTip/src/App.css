@@ -1,0 +1,22 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #15172a;
+  color:#ffff;
+}
+
+#carouselExampleSlidesOnly {
+  height: 500px; /* o lo que quieras */
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+#carouselExampleSlidesOnly .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom center;
+}
+
+
