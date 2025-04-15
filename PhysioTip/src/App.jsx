@@ -18,7 +18,7 @@ function App() {
       <Route path='/contact' element={<Contact />} />
     </Routes>
     <Cuerpo/>
-    <div className="d-flex gap-3 flex-wrap p-4">
+    <div className="d-flex gap-5 flex-wrap p-4 my-card-container">
      <Card
      image={foto1}
      title="Consejo de Espalda"
@@ -27,6 +27,20 @@ function App() {
      link="#"
      />
      <Card
+        image={foto1}
+        title="Postura Correcta"
+        text="Tips para mantener una postura saludable durante el día."
+        buttonText="Aprender"
+        link="#"
+      />
+       <Card
+        image={foto1}
+        title="Postura Correcta"
+        text="Tips para mantener una postura saludable durante el día."
+        buttonText="Aprender"
+        link="#"
+      />
+       <Card
         image={foto1}
         title="Postura Correcta"
         text="Tips para mantener una postura saludable durante el día."
