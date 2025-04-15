@@ -1,17 +1,39 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import Carousel from './components/Carousel';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import Cuerpo from './components/Cuerpo';
+import Card from './components/Card';
+import foto1 from './assets/foto1.jpg'
+import { Routes, Route } from 'react-router-dom';
+
 function App() {
  
 
   return (
     <>
     <NavBar/>
-    <Carousel/>
-      <h1>PhysioTip</h1>
-        <p>
-          Welcome to the blog where you can learn from professionals for everyday issues on your body
-        </p>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/contact' element={<Contact />} />
+    </Routes>
+    <Cuerpo/>
+    <div className="d-flex gap-3 flex-wrap p-4">
+     <Card
+     image={foto1}
+     title="Consejo de Espalda"
+     text="Ejercicios simples para aliviar el dolor lumbar."
+     buttonText="Ver más"
+     link="#"
+     />
+     <Card
+        image={foto1}
+        title="Postura Correcta"
+        text="Tips para mantener una postura saludable durante el día."
+        buttonText="Aprender"
+        link="#"
+      />
+      </div>
     </>
   )
 }

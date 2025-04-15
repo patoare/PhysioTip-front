@@ -1,13 +1,14 @@
-
+import '../App.css';
+import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <>
-        <ul>
+        <ul className="menuNav">
             <li>
-                <h5>Home</h5>
+                <Link to='/'>Home</Link>
             </li>
             <li>
-                <h5>Contact</h5>
+                <Link to ='/contact'>Contact</Link>
             </li>
         </ul>
         </>

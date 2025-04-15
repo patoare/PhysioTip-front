@@ -1,13 +1,13 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%;
+  
   background-color: #15172a;
   color:#ffff;
 }
 
 #carouselExampleSlidesOnly {
-  height: 500px; /* o lo que quieras */
+  height: 400px; /* o lo que quieras */
   overflow: hidden;
   margin-bottom: 2rem;
 }
@@ -19,4 +19,20 @@ body, html {
   object-position: bottom center;
 }
 
+.menuNav {
+  list-style: none;
+  display: flex;
+}
 
+.menuNav li {
+  color: #ffff;
+}
+
+.tituloysubtitulo{
+  text-align: center;
+}
+
+.textoCuerpo {
+  text-align: center;
+  margin: 10px 390px 10px 390px;
+}
