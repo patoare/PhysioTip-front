@@ -30,6 +30,7 @@ body, html {
 
 .tituloysubtitulo{
   text-align: center;
+  margin-bottom: 90px;
 }
 
 .textoCuerpo {
@@ -40,4 +41,76 @@ body, html {
 .my-card-container { 
   margin-left: 300px;
   margin-right: 100px;
+  
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #15172a;
+  padding: 1rem 2rem;
+  height: 120px;
+}
+
+.logo, .animation-right {
+  width: 200px;
+  margin-top: 60px;
+}
+
+.menuNav {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  margin-right: 50px;
+}
+
+.menuNav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.menuNav li a:hover {
+  color: #00bfff; /* Azul claro al pasar el mouse */
+}
+
+.card {
+  opacity: 80%;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  opacity: 100%;
+  transform: translate(5px, -5px);
+}
+
+.cuerpoQuienes {
+  text-align: center;
+  margin-top: 60px;
+
+}
+
+.cuerpoQuienes h4{
+  margin: 60px 90px 30px 90px
+}
+
+.recuadro {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin:100px 290px 100px 320px;
+}
+
+.recuadro h4 {
+  font-weight: 100;
+}
+
+.barrita {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
 }
