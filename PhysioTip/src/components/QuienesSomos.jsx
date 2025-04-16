@@ -4,6 +4,11 @@ const QuienesSomos = () => {
     return (
         <div className="cuerpoQuienes">
         <h3>Sobre Nosotros</h3>
+        <div className="barrita">
+            <div style= {{ width: 300}}>
+                <Lottie animationData={animacion3} loop={true} />
+            </div>
+            </div>
 <div className="recuadro">       
         <h4>Somos un equipo apasionado y multidisciplinario formado por fisioterapeutas, entrenadores y terapeutas expertos en la prevención de lesiones deportivas.
 
@@ -13,11 +18,7 @@ Creemos en un enfoque claro, accesible y cercano para que cada persona entienda 
 
 Porque cuando entendés tu cuerpo, podés transformarlo</h4>
         </div>
-        <div className="barrita">
-            <div style= {{ width: 300}}>
-                <Lottie animationData={animacion3} loop={true} />
-            </div>
-            </div>
+        
         </div>
 
     )
