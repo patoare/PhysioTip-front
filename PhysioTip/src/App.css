@@ -41,7 +41,6 @@ body, html {
 .my-card-container { 
   margin-left: 300px;
   margin-right: 100px;
-  
 }
 
 .card img {
@@ -50,6 +49,9 @@ body, html {
   object-fit: cover;
 }
 
+.card-body a {
+margin-left: 80px;
+}
 
 .navbar-container {
   display: flex;
@@ -119,19 +121,46 @@ body, html {
   display: flex;
   justify-content: center;
   width: 100%;
-  
 }
 
 .footer-container {
   display: flex;
-  
   align-items: center;
+  justify-content: space-between;
   background-color: #15172a;
   padding: 1rem 2rem;  
   border: 1px solid rgba(255, 255, 255, 0.23);
 }
 
-.tituloFooter {
-  text-align: center;
-margin-top: 40px;
+.footer-column1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  flex: 1;
+}
+
+.footer-column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end; /* empuja el contenido hacia abajo */
+  flex: 9; /* que ocupe el espacio proporcional */
+  height: 100%;
+}
+
+.footer-column3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.footer-column a {
+  color: white;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
 }
